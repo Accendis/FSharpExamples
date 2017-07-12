@@ -51,7 +51,7 @@ module OrderModel =
 
 module CustomerModel = 
     
-    /// In Brazil this number is used to uniquely indentify people. It's an identity document.
+    /// In Brazil this number is used to uniquely identify people. It's an identity document.
     type Cpf = 
         | Cpf of string
     

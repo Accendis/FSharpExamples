@@ -11,8 +11,9 @@
     <AssemblyName>CreditasChallenge</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <TargetFSharpCoreVersion>4.4.1.0</TargetFSharpCoreVersion>
+    <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
     <Name>SimpleDomainModel</Name>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -56,7 +57,16 @@
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="CommonTypes.fs" />
-    <Compile Include="SimpleDomainModel.fs" />
+    <Compile Include="CustomerModel.fs" />
+    <Compile Include="NotificationServices.fs" />
+    <Compile Include="ProductModel.fs" />
+    <Compile Include="PaymentModel.fs" />
+    <Compile Include="OrderModel.fs" />
+    <Compile Include="DeliveryModel.fs" />
+    <Compile Include="MembershipServices.fs" />
+    <Compile Include="VoucherServices.fs" />
+    <Compile Include="DeliveryService.fs" />
+    <Compile Include="OrderItemProcessingModel.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
     <Content Include="packages.config" />
